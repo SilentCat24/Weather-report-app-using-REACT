@@ -1,0 +1,70 @@
+.quadBox {
+    border: 2px solid black;
+    width: 350px;
+    /* margin: auto; */
+    height: 700px;
+    opacity: 0.4;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageTemp {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 130%;
+}
+
+.mainDate {
+    color: coral;
+    bottom: 0;
+}
+
+.bottomDetails {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.centeredError {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageArrow {
+    /* width: 150px; */
+    height: 60px;
+    margin-left: -280%;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    margin-top: -20%;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+    margin-left: -200%;
+    margin-top: 20%;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
